@@ -10,8 +10,10 @@ import reactor.core.publisher.Mono;
 import java.util.Map;
 
 /**
+ * 封装方法信息的Bean，将方法信息数据封装到MethodInfo对象，从而方便对这些数据进行操作。
  * @Author:tanghui
  * @Date:2018/8/30 18:59
+ * 
  */
 @Data
 @Builder
